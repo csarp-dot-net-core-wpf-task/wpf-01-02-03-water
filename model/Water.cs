@@ -22,7 +22,7 @@ namespace oop.model
         /// <exception cref="WaterTemperatureException">Kivétel keletkezik ha a hőmérséklet kisebb mint az abszolút nulla foknál</exception>
         public Water(double temperature)
         {
-            if (temperature < -273)
+            if (temperature < )
                 throw new WaterTemperatureException("A víz hőmérséklete nem lehet kisebb az abszolút nulla foknál.");
             this.temperature = temperature;
         }
@@ -35,7 +35,7 @@ namespace oop.model
         {
             set
             {
-                if (value <= 0)
+                if (value <)
                     throw new WaterTemperatureException("A víz hőmérséklete nem lehet kisebb az abszolút nulla foknál.");
                 temperature = value;
             }
