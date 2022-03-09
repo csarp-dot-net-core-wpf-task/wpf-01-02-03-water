@@ -9,3 +9,5 @@ Kilépés a programból
 - Ha a felhasználó hőmérsékletnek számmá nem konvertálható adatot adott meg, akkor pl. TextBox felett megjelenő felirattal és TextBox színének változtatásával hibaüzenet megjelenítése
 - Ha a felhasználó nem megfelelő (abszolút nulla alatti) hőmérsékletet ad meg, akkor pl. TextBox felett megjelenő felirattal és TextBox színének változtatásával hibaüzenet megjelenítése
 - A hibaüzenetek tűnjenek el, ha a felhasználó módosítja a víz hőmérsékletét
+
+MVVM feladatmegoldáskor eltérhet a fent leírtaktól.
